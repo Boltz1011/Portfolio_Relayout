@@ -1,0 +1,283 @@
+/* **************************** */
+/* BELOW 1450PX */
+/* **************************** */
+
+@media (max-width: 90.625em) {
+  .summary {
+    font-size: 4.5rem;
+    padding: 4rem;
+    margin-right: 10rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 1200PX */
+/* **************************** */
+@media (max-width: 75em) {
+  main {
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    align-content: center;
+    margin-top: 10rem;
+    height: 100%;
+  }
+
+  .summary {
+    grid-column: 1/2;
+    /* margin-left: 10%; */
+    margin: 10rem 2rem 10rem 2rem;
+    grid-row: 2/3;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .nav-bar {
+    width: 100vw;
+  }
+
+  .nav-item {
+    margin-right: 2rem;
+  }
+
+  .main-img {
+    /* justify-content: center; */
+    margin-left: 20%;
+    margin-top: 2rem;
+  }
+
+  .abo-grid {
+    padding: 5rem;
+  }
+
+  .abo-subgrid {
+    column-gap: 5rem;
+  }
+
+  .abo-list::before {
+    padding-bottom: 35rem;
+  }
+
+  .exp-grid {
+    padding: 5rem;
+  }
+
+  .grid {
+    padding: 5rem;
+    margin: 0 2rem;
+  }
+
+  .thumb {
+    width: 100%;
+  }
+
+  .thumb-udemy {
+    width: 65%;
+  }
+
+  .footer {
+    grid-template-columns: 0.5fr 1fr;
+    padding: 4rem;
+  }
+
+  /* .exp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-imgs {
+    grid-template-columns: 1fr;
+  }
+
+  .thumb-cover {
+    margin-top: 10rem;
+  }
+
+  .thumb-udemy {
+    grid-column: 1/2;
+  } */
+}
+
+/* **************************** */
+/* BELOW 920PX */
+/* **************************** */
+@media (max-width: 57.5em) {
+  .nav-text {
+    font-size: 1.7rem;
+  }
+
+  .abo-subgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+  .abo-line {
+    font-size: 2rem;
+    grid-row: 2 / 3;
+  }
+
+  .skill-head {
+    display: block;
+    margin-top: 7rem;
+    background-color: rgba(71, 64, 86, 0.801);
+    padding: 2rem 4rem;
+    border-radius: 2rem 2rem 0 0;
+
+    margin-bottom: 0;
+  }
+
+  .abo-grid {
+    padding-top: 10rem;
+  }
+
+  .abo-list {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 4rem 2rem 4rem;
+    border-radius: 0 0 2rem 2rem;
+    background-color: rgba(71, 64, 86, 0.801);
+  }
+
+  .abo-list::before {
+    display: none;
+  }
+}
+
+/* **************************** */
+/* BELOW 780PX */
+/* **************************** */
+@media (max-width: 48.75em) {
+  .nav-text {
+    display: none;
+  }
+
+  .con-text {
+    display: block;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .right {
+    justify-self: left;
+  }
+  .right .con-use {
+    text-align: left;
+  }
+
+  .con-line:last-child {
+    margin-bottom: 0;
+  }
+  .left .con-line:last-child {
+    margin-bottom: 2rem;
+  }
+
+  .con-line {
+    display: block;
+    margin-bottom: 2rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 600PX */
+/* **************************** */
+
+@media (max-width: 37.5em) {
+  .summary {
+    font-size: 4rem;
+  }
+
+  .exp-imgs {
+    gap: 0 8rem;
+  }
+
+  .con-line {
+    font-size: 2rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 525PX */
+/* **************************** */
+
+@media (max-width: 32.8125em) {
+  .abo-list {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    margin-left: 1rem;
+  }
+
+  .logo-link {
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  .nav-icon {
+    height: 2.4rem;
+  }
+
+  .summary {
+    font-size: 3rem;
+  }
+
+  .con-link {
+    padding: 2rem;
+  }
+
+  .con-line {
+    font-size: 1.8rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 400PX */
+/* **************************** */
+
+@media (max-width: 25em) {
+  .con-text {
+    display: none;
+  }
+
+  .grid {
+    padding: 2rem;
+  }
+
+  .summary {
+    font-size: 3rem;
+  }
+
+  .abo-line {
+    font-size: 1.6rem;
+  }
+  .skill-head {
+    padding: 2rem;
+  }
+  .abo-list {
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+
+  .thumb-udemy {
+    margin-top: 2rem;
+  }
+
+  .footer {
+    padding: 1.6rem;
+  }
+
+  .con-line {
+    font-size: 1.6rem;
+  }
+}
