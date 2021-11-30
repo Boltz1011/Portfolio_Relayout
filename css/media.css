@@ -81,6 +81,10 @@
     width: 65%;
   }
 
+  .omni-thumb {
+    width: 80%;
+  }
+
   .footer {
     grid-template-columns: 0.5fr 1fr;
     padding: 4rem;
@@ -155,6 +159,14 @@
 @media (max-width: 48.75em) {
   .nav-text {
     display: none;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .con-link {
+    padding: 3.3rem;
   }
 
   .con-text {
@@ -261,12 +273,18 @@
   .abo-line {
     font-size: 1.6rem;
   }
+
   .skill-head {
     padding: 2rem;
   }
+
   .abo-list {
     font-size: 1.6rem;
     padding: 2rem;
+  }
+
+  .exp-imgs {
+    gap: 0 4rem;
   }
 
   .thumb-udemy {

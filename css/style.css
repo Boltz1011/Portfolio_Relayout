@@ -465,9 +465,35 @@ body {
 
 /* ------------------PROJECTS SECTION-------------------------- */
 
+.pro-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
 .pro-line {
   margin-top: 10rem;
   font-size: 1.4rem;
+}
+
+.pro-use {
+  margin-bottom: 8rem;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  justify-self: center;
+  width: 80%;
+  filter: brightness(0.6);
+  transition: all 0.3s;
+  border-radius: 2rem;
+}
+
+.video:hover,
+.video:active {
+  filter: none;
+  transform: scale(1.1);
 }
 
 /* ---------------- DOWNLOAD SECTION------------------------------------- */
