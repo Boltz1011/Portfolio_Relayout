@@ -292,8 +292,7 @@ body {
 
 .exp-imgs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 16rem;
+  grid-template-columns: 1fr;
 }
 
 .thumb {

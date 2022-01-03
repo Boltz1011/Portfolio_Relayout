@@ -73,12 +73,12 @@
     margin: 0 2rem;
   }
 
-  .thumb {
+  /* .thumb {
     width: 100%;
-  }
+  } */
 
   .thumb-udemy {
-    width: 65%;
+    width: 100%;
   }
 
   .omni-thumb {
@@ -195,6 +195,10 @@
     display: block;
     margin-bottom: 2rem;
   }
+
+  .thumb-resize {
+    width: 88%;
+  }
 }
 
 /* **************************** */
@@ -206,9 +210,9 @@
     font-size: 4rem;
   }
 
-  .exp-imgs {
+  /* .exp-imgs {
     gap: 0 8rem;
-  }
+  } */
 
   .con-line {
     font-size: 2rem;
