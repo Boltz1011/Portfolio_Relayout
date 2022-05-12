@@ -68,6 +68,10 @@
     padding: 5rem;
   }
 
+  .exp-imgs {
+    grid-template-columns: 1fr;
+  }
+
   .grid {
     padding: 5rem;
     margin: 0 2rem;
@@ -77,8 +81,13 @@
     width: 100%;
   } */
 
+  .link-resume {
+    margin-bottom: 8%;
+  }
+
   .thumb-udemy {
     width: 100%;
+    grid-column: auto;
   }
 
   .omni-thumb {
@@ -91,10 +100,6 @@
   }
 
   /* .exp-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .exp-imgs {
     grid-template-columns: 1fr;
   }
 

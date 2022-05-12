@@ -279,6 +279,10 @@ body {
   display: inline-block;
 }
 
+.exp-imgs {
+  column-gap: 8rem;
+}
+
 .hide {
   visibility: hidden;
   transition: all 0.1s ease-in;
@@ -349,7 +353,7 @@ body {
 }
 
 .exp-grid {
-  padding: 8rem 12rem;
+  padding: 8rem 10rem;
 }
 
 /* -------------POPUPS------------------ */
