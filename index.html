@@ -12,7 +12,9 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
     <script defer src="js/script.js"></script>
+    <script defer src="js/carousel.js"></script>
     <title>Eric Rhinebolt</title>
   </head>
   <body>
@@ -124,10 +126,7 @@
       <div class="container">
         <div class="hero-grid">
           <div class="summary">
-            <p>
-              Hello,<br />I'm Eric Rhinebolt, a student aspiring to become a web
-              developer.
-            </p>
+            <p>Hello,<br />I'm Eric Rhinebolt, a Java software engineer.</p>
           </div>
           <div class="main-img">
             <img src="img/Eric-1400.png" alt="Photo of website author, Eric" />
@@ -143,21 +142,17 @@
               <h3 class="abo-head head">.aboutMe</h3>
               <h3 class="abo-head head skill-head">.skills</h3>
               <p class="abo-line line">
-                I'm an analytical problem solver that is passionate about IT and
-                coding. Recently I've attended a bootcamp, studying ServiceNow,
-                ITIL, and JavaScript. I've been using my time to learn skills to
-                transition into a career where I can continue to grow my
-                abilities and become an asset in an IT environment. My aim is to
-                start a career that's not "just a job"; one that I can be proud
-                of and use to achieve my goals and support my family.
+                I'm an analytical problem solver that is passionate about
+                software development. I have experience developing Rest and
+                GraphQL APIs.
               </p>
               <ul class="abo-list">
+                <li>&mdash; Java</li>
+                <li>&mdash; JavaScript</li>
                 <li>&mdash; HTML</li>
                 <li>&mdash; CSS</li>
-                <li>&mdash; JavaScript</li>
-                <li>&mdash; Java</li>
                 <li>&mdash; SQL</li>
-                <li>&mdash; Agile</li>
+                <li>&mdash; GraphQL</li>
               </ul>
             </div>
           </div>
@@ -168,22 +163,23 @@
         <div class="exp-grid grid">
           <div class="exp-col col">
             <h3 class="exp-head head">.experience</h3>
-            <div class="exp-imgs">
-              <div>
-                <a href="./files/Resume.pdf" download="Eric-Rhinebolt-Resume"
-                  ><img
-                    class="thumb thumb-resize thumb-resume"
-                    src="img/resume-400.png"
-                    alt="Eric Rhinebolt Resume thumbnail"
-                /></a>
-                <a
-                  class="img-use use link-resume"
-                  href="./files/Resume.pdf"
-                  download="Eric-Rhinebolt-Resume"
-                  >Download Resume</a
-                >
-              </div>
-              <div>
+            <!-- <div class="exp-imgs"> -->
+            <div>
+              <a href="./files/Resume.pdf" download="Eric-Rhinebolt-Resume"
+                ><img
+                  class="thumb thumb-resize thumb-resume"
+                  src="img/resume-thumb.png"
+                  alt="Eric Rhinebolt Resume thumbnail"
+              /></a>
+              <a
+                class="img-use use link-resume"
+                href="./files/Resume.pdf"
+                download="Eric-Rhinebolt-Resume"
+                >Download Resume</a
+              >
+            </div>
+            <div class="carousel"></div>
+            <!-- <div>
                 <a
                   href="./img/NA-Bootcamp-Cert.png"
                   download="Eric-Rhinebolt-NA-Bootcamp-Cert"
@@ -215,7 +211,7 @@
                   >Download Udemy HTML and CSS Certificate</a
                 >
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -250,7 +246,7 @@
               />
             </a> -->
             <!-- <h3 class="pro-head head">.videos</h3> -->
-            <div class="pro-box">
+            <!-- <div class="pro-box">
               <div class="video">
                 <iframe
                   src="https://www.loom.com/embed/0ca990bfc1d34de9bc679a401755ff7d"
@@ -273,7 +269,7 @@
               target="_blank"
               href="https://loom.com/share/0ca990bfc1d34de9bc679a401755ff7d"
               >ServiceNow features overview video
-            </a>
+            </a> -->
             <a
               href="https://erhinebo-guess-my-number.netlify.app/"
               target="_blank"

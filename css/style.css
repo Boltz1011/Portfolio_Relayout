@@ -300,7 +300,7 @@ body {
 }
 
 .thumb {
-  filter: brightness(0.4);
+  filter: brightness(0.7);
   transition: all 0.3s;
   border-radius: 2rem;
   display: block;
